@@ -1,0 +1,43 @@
+/* CSS Document */
+
+/*-- Básico ----------------------------------------------------------*/
+
+h1, h3{align-content: center; text-align: center;}
+h4 {padding-right: 10em; text-align: right;}
+a {hover : font-family font-size: 20px; color:#FBFBFB; letter-spacing: 2px; text-transform: uppercase;  font-weight: bold;}
+p {padding: 5px 30px}
+
+
+#contenedor {
+  width: 95%;
+  max-width: 1000px;
+  width: expression(document.body.clientWidth > 901? "900px": "auto");
+  margin: auto;
+  padding: 1em}
+
+#nav {margin: 0px; padding: 15px; text-align: center;}
+
+
+#cabecera { clear: both; background-color: beige;}
+#titulo {float: right; width: 70% ; background-color: beige; padding-left: 2em; padding-top: 3em;}
+#logo {float:left; background-color: beige; width: 20%; height: 22%; margin: 0px 0px 0px 50px}
+#nuestros_productos {float: left; width: auto; background-color: beige; padding: 1px 0.5px ; margin: 1px;}
+#informacion {float: right; background-color: beige; text-align: center; padding: 10px 1px;}
+#menu_principal { float: right; width: 68%; background-color: beige;}
+#siguenos {clear: both; align-content: center; background-color: #F3C130; border: dashed;}
+#nav {background-color: #EC9640; clear: both; background-color: #F3C130; border: dashed; }
+#contenedor {background-color: beige;}
+#pie {text-align: center;}
+#video {align-items: center; width: auto} 
+
+/*-- Cabecera --------------------------------------------------------*/
+#logo { float: left;}
+
+
+/*--Fuentes-----------------------------------------------------------*/
+body {font-family: Arial, Helvetica, sans-serif; color: saddlebrown;}
+#titulo h1 {font-family: Arial Helvetica, sans-serif; font-size: 55px; vertical-align: middle; letter-spacing: 2px;}
+
+nuestros_productos {padding: 1px; margin: 1px; background-color: #F3C130; border: dashed;}
+
+
